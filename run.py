@@ -43,6 +43,7 @@ def get_image_source():
     print("Now please choose the source where the images should come from:")
     pages = listdir("pages")
     pages = [page for page in pages if (page.endswith(".py") and page != "__init__.py")]
+    pages.sort()
     for i, page in enumerate(pages):
         print("{}: {}{}".format(i, page[:-3], "\n" if i == len(pages) - 1 else ""))
     source = None
