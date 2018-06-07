@@ -1,5 +1,2 @@
 - allow downloading pictures (either all or single ones while showing)
-- startup the program with parameters instead of entering values at the beginning
-- verbose: show links in console on pic change
-- send user (uploader) name as metadata/title
 - cast to multiple devices?
